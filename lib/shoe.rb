@@ -13,6 +13,5 @@ class Shoe
   end
 def brand=(brand)
   @brand = brand
-BRANDS << brand if BRANDS.none? {|x| x == brand}
-end
+  end
 end
